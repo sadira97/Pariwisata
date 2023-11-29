@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KategoriActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back1"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profil1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/profil1"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/about"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tekskategori"
+        android:id="@+id/kategori"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kategori"
+        android:src="@drawable/kategori1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/kategori1" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/kategori1"
+        android:layout_centerHorizontal="true"
+        android:text="Wisata Alam"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kolominput"
+        android:id="@+id/btnkategori1"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnkategori1"
+        android:src="@drawable/kategori2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/kategori2" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/kategori2"
+        android:layout_centerHorizontal="true"
+        android:text="Wisata Kuliner"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/kolominput"
+        android:id="@+id/btnkategori2"/>
+
+</RelativeLayout>
