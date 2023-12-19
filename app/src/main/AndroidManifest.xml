@@ -13,6 +13,48 @@
         android:theme="@style/Theme.Pariwisata"
         tools:targetApi="31">
         <activity
+            android:name=".BaksoMasYantoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TopChickenBurgerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BaksoTiaraSoloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RM_SungaiKalu6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SatePakEdiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KebunTehLikiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KawasanSaribuRumahGadangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoaBatuKapalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AirTerjunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DanauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WisataKulinerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WisataAlamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProfilActivity"
             android:exported="false" />
         <activity

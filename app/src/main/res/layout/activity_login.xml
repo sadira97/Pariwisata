@@ -74,6 +74,8 @@
             android:text="Sign Up"
             android:fontFamily="sans-serif-black"
             android:textSize="15sp"
-            android:textColor="@color/secondaryColor"/>
+            android:textColor="@color/secondaryColor"
+            android:id="@+id/txt_signup"/>
+
     </LinearLayout>
 </RelativeLayout>

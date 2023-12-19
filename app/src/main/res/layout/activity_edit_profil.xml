@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfilActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back3"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profil2"
+        android:id="@+id/profil3"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profil3"
+        android:src="@drawable/texteditprofile"
+        android:id="@+id/editprofil"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/profil3"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:id="@+id/editteks">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Username"
+            android:background="@drawable/kolominput2"
+            android:paddingLeft="20dp"
+            android:id="@+id/username2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@drawable/kolominput2"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/email2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:background="@drawable/kolominput2"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/password2"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editteks"
+        android:layout_centerHorizontal="true"
+        android:width="270dp"
+        android:height="50dp"
+        android:text="Update Profile"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnupdate"/>
+</RelativeLayout>

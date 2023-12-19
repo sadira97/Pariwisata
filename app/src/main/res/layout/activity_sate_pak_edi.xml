@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SatePakEdiActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back11"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/spe"
+        android:layout_below="@id/back11"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/spe"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deskspe"
+        android:layout_below="@id/spe"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/deskspe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Lokasi Lengkap Klik Link dibawah ini!!"
+        android:layout_below="@+id/deskspe"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/teksspe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linksatepakedi"
+        android:textSize="18dp"
+        android:layout_below="@+id/teksspe"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linkspe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Lokasi 2"
+        android:layout_below="@+id/linkspe"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/teks2spe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/link2sate"
+        android:textSize="18dp"
+        android:layout_below="@+id/teks2spe"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/link2spe"/>
+
+</RelativeLayout>

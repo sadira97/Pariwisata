@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RM_SungaiKalu6Activity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back12"/>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rsk"
+        android:layout_below="@id/back12"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rsk"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deskrsk"
+        android:layout_below="@id/rsk"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/deskrsk"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Lokasi Lengkap Klik Link dibawah ini!!"
+        android:layout_below="@+id/deskrsk"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/teksrsk"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkrsk"
+        android:textSize="18dp"
+        android:layout_below="@+id/teksrsk"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linkrsk"/>
+
+</RelativeLayout>

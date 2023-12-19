@@ -31,14 +31,34 @@
         android:src="@drawable/textprofile"
         android:layout_below="@+id/profil2"
         android:id="@+id/textprofile"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textprofile"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/p_user" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p_user"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="email"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:id="@+id/p_email" />
 
     <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textprofile"
+        android:layout_below="@+id/p_email"
         android:layout_centerHorizontal="true"
         android:text="EDIT PROFILE"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/kolominput2"
         android:id="@+id/btnedit"/>
 
@@ -47,9 +67,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnedit"
         android:layout_centerHorizontal="true"
-        android:text="LOGOUT"
+        android:text="LOG OUT"
         android:layout_marginTop="20dp"
         android:background="@drawable/kolominput2"
-        android:id="@+id/btnlogout"/>
+        android:id="@+id/btnlogout" />
 
 </RelativeLayout>

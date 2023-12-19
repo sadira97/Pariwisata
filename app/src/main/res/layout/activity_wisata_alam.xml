@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WisataAlamActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back5"
+        android:src="@drawable/kategori1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/wa" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/wa"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Danau Bontak"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btndanau"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btndanau"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Air Terjun Tangsi Ampek"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnair"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnair"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Goa Batu Kapal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btngoa"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btngoa"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Kawasan Saribu Rumah Gadang"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnkawasan"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnkawasan"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Kebun Teh Liki"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnteh"/>
+
+</RelativeLayout>

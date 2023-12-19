@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KebunTehLikiActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back10"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ktl"
+        android:layout_below="@id/back10"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ktl"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/deskktl"
+        android:layout_below="@id/ktl"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/deskktl"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Lokasi Lengkap Klik Link dibawah ini!!"
+        android:layout_below="@+id/deskktl"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/teksktl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linkkebunteh"
+        android:textSize="18dp"
+        android:layout_below="@+id/teksktl"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linkktl"/>
+
+</RelativeLayout>

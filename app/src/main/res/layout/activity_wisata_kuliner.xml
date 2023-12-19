@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WisataKulinerActivity"
+    android:background="@color/primaryColor">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/back6"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back6"
+        android:src="@drawable/kategori2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/wk" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/wk"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Sate Pak Edi"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnsate"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnsate"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="RM Sungai Kalu 6"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnRM"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnRM"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Bakso Tiara Solo"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnBts"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnBts"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Top Chicken and Burger"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btntop"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btntop"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:text="Bakso Mas Yanto"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kolominput2"
+        android:id="@+id/btnBmy"/>
+
+</RelativeLayout>

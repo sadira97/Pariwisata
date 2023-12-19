@@ -10,13 +10,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/back"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="18dp"
-        android:id="@+id/back1"/>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:src="@drawable/profil1"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
@@ -32,12 +25,12 @@
         android:layout_marginEnd="50dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/about"/>
+        android:id="@+id/btn_about"/>
 
     <ImageView
         android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/tekskategori"
         android:id="@+id/kategori"/>

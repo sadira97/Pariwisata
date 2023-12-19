@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Pariwisata</string>
+
+    <string name="linkdanau"><a href="https://g.co/kgs/BJep5e">https://g.co/kgs/BJep5e></a></string>
+    <string name="lokasiairterjun"><a href="https://maps.app.goo.gl/D6MCpqRY9gcBtn6C6">https://maps.app.goo.gl/D6MCpqRY9gcBtn6C6</a></string>
+    <string name="linkgoabatukapal"><a href="https://maps.app.goo.gl/Tsh53CT256VzAV689">https://maps.app.goo.gl/Tsh53CT256VzAV689</a></string>
+    <string name="lokasisrg"><a href="https://maps.app.goo.gl/FqfN6evYaMHDjw266">https://maps.app.goo.gl/FqfN6evYaMHDjw266</a></string>
+    <string name="linkkebunteh"><a href="https://maps.app.goo.gl/HbbRkCw1v42Xq5D16">https://maps.app.goo.gl/HbbRkCw1v42Xq5D16</a></string>
+    <string name="linksatepakedi"><a href="https://maps.app.goo.gl/jgo1ZgVRSMZmZChy9">https://maps.app.goo.gl/jgo1ZgVRSMZmZChy9</a></string>
+    <string name="link2sate"><a href="https://maps.app.goo.gl/3Wx1kWVjuGHSa5mM8">https://maps.app.goo.gl/3Wx1kWVjuGHSa5mM8</a></string>
+    <string name="linkrsk"><a href="https://maps.app.goo.gl/4NxPDzkdb4hRkAZZ6">https://maps.app.goo.gl/4NxPDzkdb4hRkAZZ6</a></string>
+    <string name="linkbts"><a href="https://maps.app.goo.gl/MMWL3mSNLdLnAHU9A">https://maps.app.goo.gl/MMWL3mSNLdLnAHU9A</a></string>
+    <string name="linktop"><a href="https://maps.app.goo.gl/kie9S6Ft6xnD1eJCA">https://maps.app.goo.gl/kie9S6Ft6xnD1eJCA</a></string>
+    <string name="linkbmy"><a href="https://maps.app.goo.gl/cb4Ap9zcQtzzVML3A">https://maps.app.goo.gl/cb4Ap9zcQtzzVML3A</a></string>
+
+
 </resources>
