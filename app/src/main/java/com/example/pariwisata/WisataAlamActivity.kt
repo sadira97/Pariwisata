@@ -12,6 +12,7 @@ class WisataAlamActivity : AppCompatActivity() {
     private lateinit var btngoa: Button
     private lateinit var btnair: Button
     private lateinit var btnkawasan: Button
+    private lateinit var btnteh: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wisata_alam)
@@ -22,12 +23,14 @@ class WisataAlamActivity : AppCompatActivity() {
         btnair = findViewById(R.id.btnair)
         btngoa = findViewById(R.id.btngoa)
         btnkawasan = findViewById(R.id.btnkawasan)
+        btnteh = findViewById(R.id.btnteh)
 
         back5tokategori()
         btndanautodanau()
         btnairtoairterjun()
         btngoatogoabatukapal()
         btnkawasantokawasan()
+        btntehtokebuntehliki()
     }
     private fun back5tokategori() {
         back5.setOnClickListener{
@@ -52,6 +55,11 @@ class WisataAlamActivity : AppCompatActivity() {
     private fun btnkawasantokawasan() {
         btnkawasan.setOnClickListener{
             startActivity(Intent(this, KawasanSaribuRumahGadangActivity::class.java))
+        }
+    }
+    private fun btntehtokebuntehliki() {
+        btnteh.setOnClickListener{
+            startActivity(Intent(this, KebunTehLikiActivity::class.java))
         }
     }
 }

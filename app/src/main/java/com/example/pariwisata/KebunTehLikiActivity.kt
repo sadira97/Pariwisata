@@ -4,11 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
+import android.widget.ImageView
 import android.widget.TextView
 
 class KebunTehLikiActivity : AppCompatActivity() {
 
-    private lateinit var back10 : TextView
+    private lateinit var back10 : ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kebun_teh_liki)

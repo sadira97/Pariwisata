@@ -22,7 +22,7 @@
             android:name=".BaksoTiaraSoloActivity"
             android:exported="false" />
         <activity
-            android:name=".RM_SungaiKalu6Activity"
+            android:name=".RMSungaiKalu6Activity"
             android:exported="false" />
         <activity
             android:name=".SatePakEdiActivity"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RM_SungaiKalu6Activity"
+    tools:context=".RMSungaiKalu6Activity"
     android:background="@color/primaryColor">
 
     <ImageView

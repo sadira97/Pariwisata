@@ -1,19 +1,19 @@
 package com.example.pariwisata
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 
 class WisataKulinerActivity : AppCompatActivity() {
+
     private lateinit var back6: ImageView
-    private lateinit var btnsate: ImageView
-    private lateinit var btnRM: ImageView
-    private lateinit var btnBts: ImageView
-    private lateinit var btntop: ImageView
-    private lateinit var btnBmy: ImageView
-    @SuppressLint("MissingInflatedId")
+    private lateinit var btnsate: Button
+    private lateinit var btnRM: Button
+    private lateinit var btnBts: Button
+    private lateinit var btntop: Button
+    private lateinit var btnBmy: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wisata_kuliner)
@@ -46,7 +46,7 @@ class WisataKulinerActivity : AppCompatActivity() {
     }
     private fun btnRMtorumahmakan() {
         btnRM.setOnClickListener{
-            startActivity(Intent(this, RM_SungaiKalu6Activity::class.java))
+            startActivity(Intent(this, RMSungaiKalu6Activity::class.java))
         }
     }
     private fun btnBtstobaksotiarasolo() {

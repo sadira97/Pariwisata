@@ -4,11 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
+import android.widget.ImageView
 import android.widget.TextView
 
 class KawasanSaribuRumahGadangActivity : AppCompatActivity() {
 
-    private lateinit var back9 : TextView
+    private lateinit var back9 : ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kawasan_saribu_rumah_gadang)

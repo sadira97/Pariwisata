@@ -1,16 +1,16 @@
 package com.example.pariwisata
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import android.widget.TextView
+import android.widget.ImageView
 
 class AirTerjunActivity : AppCompatActivity() {
 
-    private lateinit var back7 : TextView
-    @SuppressLint("MissingInflatedId")
+    private lateinit var back7 : ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_air_terjun)
