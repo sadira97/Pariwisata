@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lokasiairterjun"
-        android:textSize="18dp"
+        android:textSize="14dp"
         android:layout_below="@+id/teksat"
         android:textStyle="bold"
         android:fontFamily="sans-serif-black"
